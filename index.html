@@ -74,14 +74,14 @@
     <div class="container">
         <h2>Conversão de Data e Hora</h2>
         
-        <label for="dataEnvio">Data de Envio (Digite: 25032025):</label>
-        <input type="text" id="dataEnvio" placeholder="Ex: 25/03/2025" oninput="formatarDataHora('dataEnvio')" maxlength="8">
+        <label for="dataEnvio">Data de Envio (Digite formato: 12345678):</label>
+        <input type="text" id="dataEnvio" placeholder="Ex: xxxxxxxx" oninput="formatarDataHora('dataEnvio')" maxlength="8">
         
-        <label for="horaEnvio">Hora de Envio (Digite: 2230):</label>
-        <input type="text" id="horaEnvio" placeholder="Ex: 22:30" oninput="formatarDataHora('horaEnvio')" maxlength="4">
+        <label for="horaEnvio">Hora de Envio (Digite: 1234):</label>
+        <input type="text" id="horaEnvio" placeholder="Ex: xxxx" oninput="formatarDataHora('horaEnvio')" maxlength="4">
         
-        <label for="tempoEspera">Tempo de Espera (Digite: 4830 para 48:30):</label>
-        <input type="text" id="tempoEspera" placeholder="Ex: 48:30" oninput="formatarDataHora('tempoEspera')" maxlength="4">
+        <label for="tempoEspera">Tempo de Espera (Digite: 1234 para 48:30):</label>
+        <input type="text" id="tempoEspera" placeholder="Ex: xxxx" oninput="formatarDataHora('tempoEspera')" maxlength="4">
         
         <button onclick="calcularTempo()">Calcular Tempo</button>
 
