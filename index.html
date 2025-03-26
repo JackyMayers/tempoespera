@@ -74,13 +74,13 @@
     <div class="container">
         <h2>Conversão de Data e Hora</h2>
         
-        <label for="dataEnvio">Data de Envio (Digite formato: 12345678):</label>
+        <label for="dataEnvio">Data de Envio (Digite: 12345678 para 12/34/5678):</label>
         <input type="text" id="dataEnvio" placeholder="Ex: 12345678" oninput="formatarDataHora('dataEnvio')" maxlength="8">
         
-        <label for="horaEnvio">Hora de Envio (Digite: 1234):</label>
+        <label for="horaEnvio">Hora de Envio (Digite: 1234 para 12:34):</label>
         <input type="text" id="horaEnvio" placeholder="Ex: 1234" oninput="formatarDataHora('horaEnvio')" maxlength="4">
         
-        <label for="tempoEspera">Tempo de Espera (Digite: 1234 para 48:30):</label>
+        <label for="tempoEspera">Tempo de Espera (Digite: 1234 para 12:34):</label>
         <input type="text" id="tempoEspera" placeholder="Ex: 1234" oninput="formatarDataHora('tempoEspera')" maxlength="4">
         
         <button onclick="calcularTempo()">Calcular Tempo</button>
